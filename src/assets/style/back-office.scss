@@ -1,0 +1,183 @@
+.accueil {
+  overflow: hidden;
+}
+
+#searchPartner:focus {
+  outline: 0 !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  border-color: #ec008c !important;
+}
+
+.back-office {
+  height: 50vh;
+  position: absolute;
+  top: 25%;
+  text-align: -webkit-center;
+}
+
+.back-office_header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.back-office_files {
+  margin-top: 100px;
+}
+
+.back-office_impersonate {
+  width: 250px;
+  display: table;
+  border: 2px solid #ec008c;
+  height: 100px;
+}
+
+.back-office_partnership-folder {
+  width: 250px;
+  display: table;
+  border: 2px solid #ec008c;
+  background-color: #ec008c;
+  height: 100px;
+  margin-top: 0 !important;
+}
+.partnership-folder-selector {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  margin-top: 0 !important;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 11px 0 0 11px;
+  font-size: 0.8rem;
+}
+
+.partnership-folder-selection {
+  display: flex !important;
+  flex-direction: column;
+  height: 65px;
+  margin-top: 0 !important;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 2px solid #1a1a1a;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.last {
+  border-radius: 0 0 11px 11px;
+}
+
+.offer-name {
+  font-weight: bold;
+}
+
+.no-bottom-radius {
+  border-radius: 11px 0 0 0 !important;
+}
+
+.partnership-folder-selection:hover {
+  background-color: #2e2f2f;
+  color: white;
+}
+
+.back-office_impersonate span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ec008c;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.back-office_partnership-folder span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.back-office_box {
+  width: 250px;
+  height: auto;
+}
+
+.footer-accueil {
+  position: fixed;
+  bottom: 0;
+}
+
+.arrow-multiple-pf {
+  background: #1a1a1a;
+  border-radius: 0 11px 11px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  max-width: 3% !important;
+}
+
+.last-custom {
+  border-radius: 11px 0 0 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .back-office_dropdown {
+    position: absolute !important;
+  }
+  .back-office {
+    margin-top: 100px;
+  }
+  .back-office_files {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .back-office_impersonate {
+    margin-right: 0;
+  }
+  .back-office_partnership-folder {
+    margin-left: 0;
+  }
+  .back-office_search {
+    margin-left: 10px;
+  }
+  .margin-mobile {
+    margin-top: 1em;
+  }
+}
+
+.back-office .back-office_box .back-office_partnership-folder.disabled {
+  background-color: #bcbdc0;
+  border-color: #999;
+}
+
+.back-office .back-office_box .back-office_partnership-folder.disabled span {
+  color: #999;
+}
+
+@media screen and (max-width: 768px) {
+  .back-office {
+    margin-top: 70px;
+  }
+  .back-office_impersonate {
+    margin-right: 0;
+  }
+  .back-office_partnership-folder {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .back-office_search {
+    margin-left: 1rem;
+  }
+  .margin-mobile {
+    margin-top: 1em;
+  }
+  .back-office_files-infos {
+    margin-top: 150px;
+  }
+}

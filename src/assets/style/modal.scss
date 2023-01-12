@@ -1,0 +1,34 @@
+.modal-title{
+    font-weight: bold !important;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+#modal-center .modal-footer .btn-success,
+#modal-report .modal-footer button.send-report,
+#modal-center .modal-footer .btn-danger,
+#modal-report .modal-footer button.cancel,
+#modal-report .modal-footer button.send-report.disabled {
+    border-color: transparent !important;
+}
+
+#modal-center .modal-footer .btn-success,
+#modal-report .modal-footer button.send-report {
+    background-color: #faa61a;
+}
+
+#modal-center .modal-footer .btn-danger,
+#modal-report .modal-footer button.cancel {
+    background-color: #ec008c !important;
+}
+
+#modal-center .modal-header,
+#modal-report .modal-header {
+    background-color: #eee !important;
+}
+
+#modal-report .modal-footer button.send-report.disabled {
+    background-color: #aaa !important;
+}
